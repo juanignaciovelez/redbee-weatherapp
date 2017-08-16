@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    color: #fff;
+    height: 100%;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    background-color: #4b5257;
+}
+
+/* Pattern styles */
+.container {
+    height: 90%;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.left-half{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    background-color: #5bc0de;
+    float: left;
+}
+
+.right-half{
+    position: relative;
+    width: 80%;
+    background-color: aquamarine;
+    float: left;
+}
+
+.form-div{
+    width: 100%;
+}
+
+.label-title{
+    margin-left: 10px;
+}
+
+.input-list{
+    width: 70%;
+    margin-left: 10px;
+    float: left;
+}
+
+.btn-add-user{
+    width: 20%;
+    float: left;
+    background-color: #5bc0de;
+    border-color: #4b5257;
+}
+
+.input-board{
+    width: 50%;
+    margin-left: 10px;
+    float: left;
+}
+
+.btn-list{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 65%;
+    background-color: #5bc0de;
+    border-color: #4b5257;
+}
+
+.btn-rm-user{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+    float: left;
+    background-color: #5bc0de;
+    border-color: #4b5257;
+}
+
+.btn-board{
+    width: 10%;
+    background-color: #5bc0de;
+}
+
+#board-list{
+    width: 20%;
+    color: #ffffff;
+    float: left;
+}
+
+.btn-close{
+    float: right;
+    margin-right: 10px;
+}
+
+#board{
+    color: black;
+    float: right;
+    height: 100%!important;
+    width: 80%;
+    overflow: scroll;
+}
+
+.widget-container{
+    width: 70%!important;
+    height: auto!important;
+    margin-left: 10px;
+}
